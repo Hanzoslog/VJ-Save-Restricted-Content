@@ -7,11 +7,11 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            "techvj login",
+            "techkboy login",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
-            plugins=dict(root="TechVJ"),
+            plugins=dict(root="Techlyboy"),
             workers=50,
             sleep_threshold=10
         )
@@ -20,7 +20,7 @@ class Bot(Client):
     async def start(self):
             
         await super().start()
-        print('Bot Started Powered By @VJ_Botz')
+        print('Bot started')
 
     async def stop(self, *args):
 
