@@ -1,6 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+
 
 from pyrogram import Client
 from config import API_ID, API_HASH, BOT_TOKEN
@@ -29,6 +27,3 @@ class Bot(Client):
         await super().stop()
         print('Bot Stopped Bye')
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
